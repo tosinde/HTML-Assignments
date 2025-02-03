@@ -1,0 +1,100 @@
+body {
+    background-color: #f4faf8;
+}
+
+.learn {
+    font-family: 'Faculty Glyphic', serif;
+    font-weight: bolder;
+    font-style: normal;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.overall-flex {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 650px;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 30px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    margin: 50px 248.5px 0px 248.5px;
+    width: 300px;
+}
+
+.half-page {
+    /* position: relative; */
+    margin: auto;
+    flex: 50%;
+}
+
+.footer {
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: smaller;
+}
+
+.sign-up {
+    background-color: white;
+    flex: 50%;
+}
+
+.images {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.question {
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    color: blue;
+}
+
+.sign {
+    font-family: 'Faculty Glyphic';
+    margin-bottom: 10px;
+}
+
+.forms {
+    margin-left: 20px;
+}
+
+.apply {
+    margin-top: 0px;
+    color: gray;
+}
+
+.form-group1 {
+    display: flex;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+.form-group2 {
+    display: flex;
+    border-color: gray;
+    border-radius: 5px;
+}
